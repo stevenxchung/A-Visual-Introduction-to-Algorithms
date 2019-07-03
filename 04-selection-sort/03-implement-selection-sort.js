@@ -25,3 +25,10 @@ var selectionSort = function(array) {
 
   return;
 };
+
+// Test
+console.log(selectionSort([4, 2, 1, 3]));
+console.log(selectionSort([4, 3, 2, 1, 0, -1, -99]));
+console.log(selectionSort([1, 2, 3, 4]));
+console.log(selectionSort([2]));
+console.log(selectionSort([]));
