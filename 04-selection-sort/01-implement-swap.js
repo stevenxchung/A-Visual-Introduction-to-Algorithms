@@ -6,3 +6,7 @@ let swap = (array, firstIndex, secondIndex) => {
 
   return array;
 };
+
+// Test
+console.log(swap([1, 2, 3, 4], 0, 1));
+console.log(swap([1, 2, 3, 4], 3, 2));
