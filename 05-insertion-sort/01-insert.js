@@ -9,3 +9,8 @@ var insert = function(array, rightIndex) {
 
   return array;
 };
+
+// Test
+console.log(insert([3, 5, 7, 11, 13, 2, 9, 6], 4));
+console.log(insert([2, 3, 5, 7, 11, 13, 9, 6], 5));
+console.log(insert([2, 3, 5, 7, 9, 11, 13, 6], 6));
