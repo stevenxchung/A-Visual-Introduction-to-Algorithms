@@ -9,3 +9,10 @@ var insertionSort = function(array) {
   }
   return array;
 };
+
+// Test
+console.log(insertionSort([4, 2, 1, 3]));
+console.log(insertionSort([4, 3, 2, 1, 0, -1, -99]));
+console.log(insertionSort([1, 2, 3, 4]));
+console.log(insertionSort([2]));
+console.log(insertionSort([]));
