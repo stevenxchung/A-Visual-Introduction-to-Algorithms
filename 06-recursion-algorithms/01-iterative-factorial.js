@@ -7,3 +7,9 @@ var factorial = function(n) {
   
   return result;
 };
+
+// Test
+console.log(factorial(0))
+console.log(factorial(1))
+console.log(factorial(2))
+console.log(factorial(5))
