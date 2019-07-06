@@ -10,3 +10,9 @@ var isPalindrome = function(str) {
     return isPalindrome(str.slice(1, -1));
   }
 };
+
+// True
+console.log(isPalindrome('motor'));
+console.log(isPalindrome('rotor'));
+console.log(isPalindrome('racecar'));
+console.log(isPalindrome('foobar'));
