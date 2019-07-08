@@ -53,3 +53,10 @@ var merge = function(array, p, q, r) {
   }
   return array;
 };
+
+// Test
+console.log(merge([2, 4, 1, 3], 0, 1, 3));
+console.log(merge([-99, 1, 2, 3, -1, 0, 4], 0, 3, 6));
+console.log(merge([1, 2, 3, 4], 0, 1, 3));
+console.log(merge([2], 0, 0, 0));
+console.log(merge([], 0, -1, -1));
