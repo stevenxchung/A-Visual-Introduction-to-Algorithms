@@ -11,7 +11,7 @@ var isPalindrome = function(str) {
   }
 };
 
-// True
+// Test
 console.log(isPalindrome('motor'));
 console.log(isPalindrome('rotor'));
 console.log(isPalindrome('racecar'));
