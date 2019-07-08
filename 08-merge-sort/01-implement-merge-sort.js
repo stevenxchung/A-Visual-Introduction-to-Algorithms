@@ -50,3 +50,10 @@ var mergeSort = function(array, p = 0, r = array.length - 1) {
 
   return array;
 };
+
+// Test
+console.log(mergeSort([4, 2, 1, 3]));
+console.log(mergeSort([4, 3, 2, 1, 0, -1, -99]));
+console.log(mergeSort([1, 2, 3, 4]));
+console.log(mergeSort([2]));
+console.log(mergeSort([]));
