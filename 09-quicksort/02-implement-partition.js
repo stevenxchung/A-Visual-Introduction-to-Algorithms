@@ -33,3 +33,6 @@ var partition = function(array, p, r) {
 
   return array;
 };
+
+// Test
+console.log(partition([9, 7, 5, 11, 12, 2, 14, 3, 10, 4, 6], 0, 10));
