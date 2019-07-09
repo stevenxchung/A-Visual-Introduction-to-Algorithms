@@ -30,3 +30,10 @@ var quickSort = function(array, p, r) {
   }
   return array;
 };
+
+// Test
+console.log(quickSort([4, 2, 1, 3], 0, 3));
+console.log(quickSort([4, 3, 2, 1, 0, -1, -99], 0, 6));
+console.log(quickSort([1, 2, 3, 4], 0, 3));
+console.log(quickSort([2], 0, 0));
+console.log(quickSort([], 0, -1));
