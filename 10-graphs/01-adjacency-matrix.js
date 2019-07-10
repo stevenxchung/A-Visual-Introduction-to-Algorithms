@@ -9,3 +9,6 @@ var adjMatrix = [
   [0, 0, 0, 0, 0, 1],
   [0, 0, 0, 0, 0, 0]
 ];
+
+// Test
+console.log(adjMatrix);
