@@ -60,3 +60,16 @@ var doBFS = function(graph, source) {
 
   return bfsInfo;
 };
+
+// Test
+const graph = [
+  [1],
+  [0, 4, 5],
+  [3, 4, 5],
+  [2, 6],
+  [1, 2],
+  [1, 2, 6],
+  [3, 5],
+  []
+];
+console.log(doBFS(graph, 0));
